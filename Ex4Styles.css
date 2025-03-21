@@ -1,0 +1,34 @@
+* {
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: var(--bg-color);
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    font-size: 18px;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 10px;
+    background: white;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+}
